@@ -1,4 +1,4 @@
-package controleDeFluxo
+package ControleDeFluxo
 
 fun maiorDeIdade(idade: Int) {
     if (idade >= 18) {
