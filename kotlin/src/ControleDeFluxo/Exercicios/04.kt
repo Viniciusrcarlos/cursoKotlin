@@ -25,5 +25,4 @@ fun portaria() {
 
 fun main() {
     portaria()
-    // lauren <3
 }
