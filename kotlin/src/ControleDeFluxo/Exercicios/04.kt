@@ -14,6 +14,8 @@ fun portaria() {
             val codConvite = readLine()
             if (codConvite.toString().uppercase().startsWith("XL", 0) || codConvite.toString().uppercase().startsWith("XT", 0)) {
                 println("Welcome :)")
+            } else {
+                print("Negada. Convite invalido.")
             }
         } else {
             print("Negada. Convite invalido.")
