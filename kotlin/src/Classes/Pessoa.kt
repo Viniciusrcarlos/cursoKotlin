@@ -10,8 +10,8 @@ class Pessoa(val anoNascimento: Int, var nome: String) {
         this.doc = doc
     }
 
-    fun dormir(): Int {
-        return 2
+    fun dormir() {
+        println("Dormindo...")
     }
 
     fun acordar() {
